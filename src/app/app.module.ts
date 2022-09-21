@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { CadastrarUsuarioComponent } from './cadastrar-usuario/cadastrar-usuario.component';
 import { RedefinirSenhaComponent } from './redefinir-senha/redefinir-senha.component';
+import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     CadastrarUsuarioComponent,
-    RedefinirSenhaComponent
+    RedefinirSenhaComponent,
+    TelaInicialComponent
   ],
   imports: [
     BrowserModule,
