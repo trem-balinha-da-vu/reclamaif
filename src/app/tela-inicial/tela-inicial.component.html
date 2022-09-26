@@ -1,4 +1,5 @@
 <body>
+  <app-barra-lateral></app-barra-lateral>
     <div class="container">
       <div class="wrapper">
         <section class="post">
@@ -16,6 +17,14 @@
     
             </div>
             <textarea placeholder="O que tem te incomodado? " spellcheck="false" required></textarea>
+            <label for="estado">Setor vinculado </label>
+            <select id="estado" name="estado">
+              <option value null>...</option>
+              <option value="Infraestrutura">Infraestrutura</option>
+              <option value="Alimentação">Alimentação</option>
+              <option value="Setor pedagógico">Setor pedagógico</option>
+              <option value="outro">Outro</option>
+            </select>
             <button>Postar</button>
           </form>
         </section>

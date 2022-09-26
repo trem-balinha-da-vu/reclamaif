@@ -7,6 +7,8 @@ import { LoginComponent } from './login/login.component';
 import { CadastrarUsuarioComponent } from './cadastrar-usuario/cadastrar-usuario.component';
 import { RedefinirSenhaComponent } from './redefinir-senha/redefinir-senha.component';
 import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
+import { BarraLateralComponent } from './barra-lateral/barra-lateral.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,14 @@ import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
     LoginComponent,
     CadastrarUsuarioComponent,
     RedefinirSenhaComponent,
-    TelaInicialComponent
+    TelaInicialComponent,
+    BarraLateralComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
