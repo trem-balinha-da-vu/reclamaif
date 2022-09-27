@@ -50,9 +50,20 @@
   .container img{
     cursor: pointer;
     border-radius: 50%;
-    width: 150%;
-    height: 150%;
-   
+    align-self: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 4px solid silver;
+  }
+  
+    #foto{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 17px 0;
+    text-align: center;
+    width: 400px;
+    height: 900px;
+    border-right: 2px solid #292929;
   }
   .container .post{
     transition: margin-left 0.18s ease;
@@ -65,10 +76,13 @@
     font-weight: 600;
     padding: 17px 0;
     text-align: center;
-    border-bottom: 1px solid #bfbfbf;
+    border-bottom: 2px solid #bfbfbf;
   }
+
+
   .post form{
-    margin: 20px 25px;
+    margin:0;
+
   }
   .post form .content,
   .audience .list li .column{
@@ -77,58 +91,6 @@
   }
   .post form .content img{
     cursor: default;
-    max-width: 60px;
-    margin-right: 15px;
-  }
-  
-  form :where(textarea, button){
-    width: 100%;
-    outline: none;
-    border: none;
-  }
-  form textarea{
-    resize: none;
-    font-size: 18px;
-    margin-top: 30px;
-    min-height: 200px;
-  }
-  form textarea::placeholder{
-    color: #5f5f5f;
-    font-weight: bold;
-    font-size: medium;
-    padding-top: 1%;
-    padding-left: 2%;
-  }
-  form textarea{
-    color: #2c2c2c;
-    background-color: #cacaca;
-    border-radius: 15px;
-    font-size: medium;
-    padding-top: 5%;
-    padding-left: 2%;
-  }
-  
-  
-  form button{
-    margin-top: 15px;
-    padding: 7px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    color: #BCC0C4;
-    cursor: no-drop;
-    border-radius: 20px;
-    background: #e2e5e9;
-    transition: all 0.3s ease;
-  }
-  form textarea:valid ~ button{
-    color: #d9d9d9;
-    cursor: pointer;
-    background: #1d3b1d;
-  }
-  form textarea:valid ~ button:hover{
-    background: #206320;
-    border: 1px solid #228B22;
+    margin: 25px;
   }
   
