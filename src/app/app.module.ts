@@ -9,6 +9,7 @@ import { RedefinirSenhaComponent } from './redefinir-senha/redefinir-senha.compo
 import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 import { BarraLateralComponent } from './barra-lateral/barra-lateral.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { BarraLateralPerfilComponent } from './barra-lateral-perfil/barra-lateral-perfil.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PerfilComponent } from './perfil/perfil.component';
     RedefinirSenhaComponent,
     TelaInicialComponent,
     BarraLateralComponent,
-    PerfilComponent
+    PerfilComponent,
+    BarraLateralPerfilComponent
   ],
   imports: [
     BrowserModule,

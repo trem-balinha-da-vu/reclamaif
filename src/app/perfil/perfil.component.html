@@ -1,5 +1,5 @@
 <body>
-    <app-barra-lateral></app-barra-lateral>
+  <app-barra-lateral-perfil></app-barra-lateral-perfil>
       <div class="container">
         <div class="wrapper">
           <section class="post">
@@ -8,16 +8,31 @@
               <div class="content">
                 <div id="foto">
                   <img src="https://www.lacazmartins.com.br/wp-content/uploads/2017/05/sem-foto-oficial.png" alt="foto de perfil" width="200px" height="200px"> 
-                  
                   <div class="infos">
                     <h4>Izabelle Garcez Barbosa </h4>
                     <h6 id="email">exemplo@gmail.com</h6>
-                  </div>
+                  </div> 
+                </div>
+                <div id="informacoes">
+                  <p> 
+                    <label for="nome_usuario">Nome</label>
+                    <input id="nome_usuario" name="nome_usuario" value="Izabelle" /> 
+                  </p>
+                  <p> 
+                    <label id="sobrenome" for="sobrenome_usuario">Sobrenome</label>
+                    <input id="sobrenome_usuario" name="sobrenome_usuario" value="Garcez Barbosa" /> 
+                  </p>
+                  <p> 
+                    <label id="email-usu"for="email_usuario">Email</label>
+                    <input id="email_usuario" name="email_usuario" value="exemplo@gmail.com" /> 
+                  </p>
+
+
+
                   
                 </div>
-      
+                <input type="submit" value="Salvar alterações">
               </div>
-              
             </form>
           </section>
           </div>

@@ -61,9 +61,61 @@
     font-weight: 600;
     padding: 17px 0;
     text-align: center;
-    width: 400px;
+    width: 600px;
     height: 900px;
-    border-right: 2px solid #292929;
+    border-right: 2px solid #bfbfbf;
+  }
+  #informacoes{
+    width: 100%;
+    
+  }
+  label{
+    position: relative;
+    box-shadow: 10px;
+    border-radius: 5px; 
+    border-radius: 20px;
+    font-size: large;
+    margin-left: 15px;
+    margin-right: 18.2%;
+    
+  }
+  #sobrenome{
+    margin-right: 12%;
+  
+  }
+
+  #email-usu{
+    margin-right: 18.5%;
+  }
+
+  input:not([type="checkbox"]){
+    width: 500px;
+    height: 45px;
+    margin-top: 15px;
+    padding: 10px;  
+    border: 0.5px solid #b2b2b2;
+    font-size: small;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  }
+  input[type="submit"]{
+    width: 25%!important;
+    cursor: pointer;  
+    background: #1d3b1d;
+    padding: 8px 5px;
+    color: #d9d9d9;
+    font-size: 18px;  
+    border: 1px solid #fff; 
+    margin-top: 770px;
+    margin-right: 40px;
+    margin-left: 0%;
+    text-shadow: 0 1px 1px #333;
+    border-radius: 20px;
+  }
+  input[type="submit"]:hover{
+    background: #206320;
+    border: 1px solid #228B22;
   }
   .container .post{
     transition: margin-left 0.18s ease;
@@ -87,7 +139,7 @@
   .post form .content,
   .audience .list li .column{
     display: flex;
-    align-items: center;
+    align-content:left;
   }
   .post form .content img{
     cursor: default;
