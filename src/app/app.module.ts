@@ -10,6 +10,7 @@ import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
 import { BarraLateralComponent } from './barra-lateral/barra-lateral.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { BarraLateralPerfilComponent } from './barra-lateral-perfil/barra-lateral-perfil.component';
+import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BarraLateralPerfilComponent } from './barra-lateral-perfil/barra-latera
     TelaInicialComponent,
     BarraLateralComponent,
     PerfilComponent,
-    BarraLateralPerfilComponent
+    BarraLateralPerfilComponent,
+    SobreNosComponent
   ],
   imports: [
     BrowserModule,
