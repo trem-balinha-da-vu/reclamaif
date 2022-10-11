@@ -11,6 +11,7 @@ import { BarraLateralComponent } from './barra-lateral/barra-lateral.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { BarraLateralPerfilComponent } from './barra-lateral-perfil/barra-lateral-perfil.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
+import { ConhecaComponent } from './conheca/conheca.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
     BarraLateralComponent,
     PerfilComponent,
     BarraLateralPerfilComponent,
-    SobreNosComponent
+    SobreNosComponent,
+    ConhecaComponent
   ],
   imports: [
     BrowserModule,
