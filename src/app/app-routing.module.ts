@@ -4,6 +4,7 @@ import { CadastrarUsuarioComponent } from './cadastrar-usuario/cadastrar-usuario
 import { ConhecaComponent } from './conheca/conheca.component';
 import { LoginComponent } from './login/login.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { ReclamacoesComponent } from './reclamacoes/reclamacoes.component';
 import { RedefinirSenhaComponent } from './redefinir-senha/redefinir-senha.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: "tela-inicial", component: TelaInicialComponent},
   {path: "perfil", component: PerfilComponent},
   {path: "proposta", component: SobreNosComponent},
-  {path: "desenvolvedores", component: ConhecaComponent}
+  {path: "desenvolvedores", component: ConhecaComponent},
+  {path: "reclamacoes-anteriores", component: ReclamacoesComponent}
 ];
 
 @NgModule({

@@ -12,6 +12,8 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { BarraLateralPerfilComponent } from './barra-lateral-perfil/barra-lateral-perfil.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { ConhecaComponent } from './conheca/conheca.component';
+import { BarraLateralPropostaComponent } from './barra-lateral-proposta/barra-lateral-proposta.component';
+import { ReclamacoesComponent } from './reclamacoes/reclamacoes.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ConhecaComponent } from './conheca/conheca.component';
     PerfilComponent,
     BarraLateralPerfilComponent,
     SobreNosComponent,
-    ConhecaComponent
+    ConhecaComponent,
+    BarraLateralPropostaComponent,
+    ReclamacoesComponent
   ],
   imports: [
     BrowserModule,
