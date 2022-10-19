@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, primeicons;
   }
   body{
     display: flex;
@@ -13,16 +13,20 @@
     background: linear-gradient(#408a40, #1d3b1d);
   }
   
-  
-  
-  p .content{
-    color: #292929;
+  #nicolas, #izabelle{
+    display:block;
+    align-items: center;
     text-align: center;
-    margin-left: 30px;
-    padding-left: 30px;
-  
+    width: 500px;
+    height: 400px;
+    padding: 25px;
+    margin: 15px;
+    margin-top: 0;
+    
   }
+
   
+
   .container{
     display: flex;
     width: 1000px;
@@ -74,3 +78,39 @@
     margin: 25px;
   }
   
+  .icons{
+    list-style: none;
+  }
+  .icons li{
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    position: relative;
+  }
+  .icons li:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 10%;
+    background: linear-gradient(45deg, #7b00e0, #ae31d9);
+    transition: all 0.3s ease-in;
+  }
+  .icons li:hover:before{
+    transform: rotate(360deg);
+    border-radius: 100%;
+  }
+  .icons li a span{
+    font-size: 27px;
+    line-height: 70px;
+    color: #1d3b1d;
+    transition: all 0.3s ease-out;
+  }
+  .icons li:hover a span{
+    transform: scale(1.2);
+  }

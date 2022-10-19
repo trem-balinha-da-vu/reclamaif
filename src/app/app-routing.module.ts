@@ -8,6 +8,7 @@ import { ReclamacoesComponent } from './reclamacoes/reclamacoes.component';
 import { RedefinirSenhaComponent } from './redefinir-senha/redefinir-senha.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { TelaInicialComponent } from './tela-inicial/tela-inicial.component';
+import { BarraLateralComponent } from './barra-lateral/barra-lateral.component';
 
 const routes: Routes = [
   {path: "", component: LoginComponent},
