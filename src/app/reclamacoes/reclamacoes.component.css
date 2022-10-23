@@ -29,8 +29,8 @@
   }
   
   .container{
-    display: flex;
-    width: 750px;
+    display: block;
+    width: 840px;
     height: 300px;
     overflow: hidden;
     background: #d9d9d9;
@@ -38,6 +38,14 @@
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
   }
   
+  #big{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 900px;
+    height: 600px;
+    background: #c4c4c4;
+    padding: 30px;
+  }
   .container .wrapper{
     width: 4705px;
     height: 600px;
@@ -50,15 +58,9 @@
   .container img{
     cursor: pointer;
     border-radius: 50%;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
    
-  }
-  .container .post{
-    transition: margin-left 0.18s ease;
-  }
-  .container.active .post{
-    margin-left: -400px;
   }
   .post header{
     font-size: 22px;
@@ -69,9 +71,9 @@
   }
   .post form{
     margin: 20px 25px;
+    padding: 3px;
   }
-  .post form .informacoes,
-  .audience .list li .column{
+  .post form .informacoes{
     display: flex;
     align-items: center;
   }
@@ -82,14 +84,11 @@
   }
   
   
-  button #comentar{
-    width: 100%;
-    outline: none;
-    border: none;
-  }
+
   
-  form button{
+  button{
     margin-top: 15px;
+    margin-right: 20px;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -98,37 +97,57 @@
     cursor: no-drop;
     border-radius: 30px;
     background: #e2e5e9;
-    transition: all 0.3s ease;
-    width: 40px;
-    height: 30px;
-    border: none;
-  }
-  button{
-    color: #d9d9d9;
+   color: #d9d9d9;
     cursor: pointer;
     background: #1d3b1d;
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 2px;
+  }
+
+  #curtir,
+  #comentar{
+    margin-right: 15px;
+    justify-content: right;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  div #butoes{
+    display: flex;
+    margin: auto 0;
+    width: 100%;
   }
   button:hover{
     background: #206320;
     border: 1px solid #228B22;
+    
   }
   
-  form textarea{
-    color: #2c2c2c;
+  #input{
     background-color: #cacaca;
     border-radius: 15px;
+    height: 120px;
+    width:790px;
+    padding: 5px;
+    margin-top: 15px;
+
+  }
+  form textarea{
+    min-height: 95px ;
+    display: flex;
+    color: #2c2c2c;
+    resize: none;
+    background: hsla(0, 0%, 75%, 0) ;
     font-size: medium;
-    padding-top: 5%;
+    align-items:flex-start;
+    padding-top: 1%;
     padding-left: 3%;
     margin-top: 15px;
     text-decoration: none;
-    height:130px;
-    width:700px;
+    width:780px;
     outline: none;
     border: none;
-
+    text-align: justify;
   }
   
-  #comentar{
-
-  }
